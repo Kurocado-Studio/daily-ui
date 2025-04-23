@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": ["@internal/config/tsconfig.web"],
+  "compilerOptions": {
+    "types": ["@types/lodash-es", "@types/node"],
+    "typeRoots": ["./node_modules"],
+    "target": "ES2020",
+    "rootDir": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "paths": {
+      "@kurocado-studio/ui": ["node_modules/@kurocado-studio/ui"]
+    }
+  },
+  "include": ["./.storybook/**/*", "./stories/**/*"],
+  "exclude": ["dist", "build", "node_modules"]
+}
