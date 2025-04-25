@@ -24,6 +24,6 @@
       "@kurocado-studio/ui": ["node_modules/@kurocado-studio/ui"]
     }
   },
-  "include": ["./.storybook/**/*", "./stories/**/*"],
+  "include": ["./.storybook/**/*", "vite.config.ts", "./stories/**/*"],
   "exclude": ["dist", "build", "node_modules"]
 }
