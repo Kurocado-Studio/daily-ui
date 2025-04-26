@@ -1,5 +1,10 @@
 # Kurocado Studio Daily UI
 
+|                 |                                                    |
+| --------------- | -------------------------------------------------- |
+| React Storybook | <https://design-system-kurocado-studio.vercel.app> |
+| Vue Storybook   | <https://daily-ui-vue-kurocado-studio.vercel.app>  |
+
 A daily design and development challenge where we create modern, functional UIs using Figma for
 design, and implement them in both React and Vue, powered by the
 [Kurocado Design System](https://github.com/Kurocado-Studio/design-system). It is meant to sharpen

@@ -3,6 +3,7 @@ import designTokens from '@internal/config/tokens';
 import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
 import type { Preview } from '@storybook/vue3';
+import { get } from 'lodash-es';
 
 import '../tailwind.css';
 
@@ -20,8 +21,8 @@ const preview: Preview = {
 };
 
 export const decorators = [
-  (storyFn, context) => {
-    const selectedTheme = context.globals.theme === LIGHT_THEME;
+  (storyFn: () => React.ReactNode, context: Record<string, unknown>) => {
+    const selectedTheme = get(context, ['globals', 'theme']) === LIGHT_THEME;
 
     if (typeof window !== 'undefined') {
       document.documentElement.classList.toggle('dark', !selectedTheme);
