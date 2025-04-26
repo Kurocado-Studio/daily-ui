@@ -18,7 +18,7 @@ const config = {
   },
   docs: {},
   typescript: {
-    reactDocgen: 'daily-react-docgen-typescript',
+    reactDocgen: 'daily-ui-react-docgen-typescript',
     reactDocgenTypescriptOptions: {
       shouldExtractLiteralValuesFromEnum: true,
       compilerOptions: {

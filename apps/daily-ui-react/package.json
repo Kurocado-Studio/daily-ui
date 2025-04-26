@@ -1,9 +1,5 @@
 {
-<<<<<<<< HEAD:apps/daily-react/package.json
-  "name": "daily-react",
-========
   "name": "daily-ui-react",
->>>>>>>> 5ddba93 (chore(config): sets up Vue side):apps/react/package.json
   "version": "0.0.0-semantically-released",
   "type": "module",
   "private": true,
@@ -18,11 +14,7 @@
     "setup": "pnpm install"
   },
   "dependencies": {
-<<<<<<<< HEAD:apps/daily-react/package.json
     "@kurocado-studio/ui": "1.4.0-develop.1",
-========
-    "@kurocado-studio/ui": "^1.3.2",
->>>>>>>> 5ddba93 (chore(config): sets up Vue side):apps/react/package.json
     "isbot": "^4",
     "lucide-react": "^0.292.0",
     "postcss": "^8.5.3",
