@@ -1,5 +1,5 @@
 {
-  "name": "daily-ui-vue2",
+  "name": "daily-ui-vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,13 +7,13 @@
     "preview": "vite preview",
     "build": "storybook build",
     "clean": "rm -rf .turbo node_modules",
-    "dev": "storybook dev -p 6008",
+    "dev": "storybook dev -p 6009",
     "lint": "eslint ./stories/*.stories.ts --max-warnings 0 --no-warn-ignored",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --check . --write",
     "preview-storybook": "serve storybook-static",
     "setup": "pnpm install",
-    "storybook": "storybook dev -p 6008",
+    "storybook": "storybook dev -p 6009",
     "build-storybook": "storybook build"
   },
   "dependencies": {

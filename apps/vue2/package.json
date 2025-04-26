@@ -1,5 +1,5 @@
 {
-  "name": "daily-ui-vue",
+  "name": "daily-ui-vue2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,17 +7,18 @@
     "preview": "vite preview",
     "build": "storybook build",
     "clean": "rm -rf .turbo node_modules",
-    "dev": "storybook dev -p 6009",
+    "dev": "storybook dev -p 6008",
     "lint": "eslint ./stories/*.stories.ts --max-warnings 0 --no-warn-ignored",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --check . --write",
     "preview-storybook": "serve storybook-static",
     "setup": "pnpm install",
-    "storybook": "storybook dev -p 6009",
+    "storybook": "storybook dev -p 6008",
     "build-storybook": "storybook build"
   },
   "dependencies": {
     "@kurocado-studio/ui": "1.4.0-develop.1",
+    "lodash-es": "^4.17.21",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.0",
     "tailwindcss-animate": "^1.0.7",
