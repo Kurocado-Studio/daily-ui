@@ -15,6 +15,7 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
+    "./tokens": "./dist/tokens/tokens.json",
     "./tsconfig.web": "./dist/tsconfig.web.json",
     "./qa/web/setup": "./dist/setup.web.js"
   },

@@ -1,3 +1,0 @@
-# Discovery
-
-Start typing here...

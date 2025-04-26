@@ -33,22 +33,6 @@ export const WithCardBody: StoryObj<CardProps> = {
   tags: ['autodocs'],
 };
 
-export const WithFramerMotionProps: StoryObj<CardProps> = {
-  render: Template,
-  name: 'With Framer Motion Props',
-  args: {
-    children: (
-      <Card.Body>
-        <p className='text-base'>Card body</p>
-      </Card.Body>
-    ),
-    initial: { opacity: 0 },
-    animate: { opacity: 1 },
-    transition: { duration: 1 },
-  },
-  tags: ['autodocs'],
-};
-
 export const WithCardHeader: StoryObj<CardProps> = {
   render: Template,
   name: 'With Card Header',

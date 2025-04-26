@@ -13,7 +13,7 @@ export default defineConfig((options) => ({
   splitting: true,
   treeshake: true,
   onSuccess: async (): Promise<void> => {
-    execSync('copyfiles -u 1 src/**/tsconfig.*.json dist', {
+    execSync('copyfiles -u 1 src/**/tsconfig.*.json src/tokens/*.json dist', {
       stdio: 'inherit',
     });
   },
