@@ -3,7 +3,7 @@ import { fn } from '@storybook/test';
 import type { Meta, StoryObj } from '@storybook/vue3';
 
 const meta = {
-  title: 'Example/Card',
+  title: 'Card',
   component: Card,
   tags: ['autodocs'],
   argTypes: {},
@@ -18,9 +18,9 @@ export default meta;
 type Story = StoryObj<CardProps>;
 
 const template = `
-<Card v-bind="args">
+<Card>
   <CardBody>
-    <p class="text-sm">Card Body</p>
+    <p class="text-sm">Vue Card Body</p>
   </CardBody>
 </Card>
 `;
