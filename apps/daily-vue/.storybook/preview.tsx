@@ -1,8 +1,8 @@
+import designTokens from '@internal/config/tokens';
 import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
 import type { Preview } from '@storybook/vue3';
 
-import designTokens from '../../../packages/ui/src/lib/domain/tokens/tokens.json';
 import '../tailwind.css';
 
 const LIGHT_THEME = 'Light setup';
