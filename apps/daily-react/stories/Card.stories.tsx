@@ -2,8 +2,10 @@ import { Card, type CardProps } from '@kurocado-studio/ui/react';
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 
+import { LoginSignupCards } from '../src/daily-ui-001/Daily001';
+
 function Template(args: CardProps): React.ReactElement {
-  return <Card {...args} />;
+  return <LoginSignupCards {...args} />;
 }
 
 const meta: Meta<CardProps> = {

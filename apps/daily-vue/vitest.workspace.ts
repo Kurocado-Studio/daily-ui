@@ -1,3 +1,4 @@
+/* eslint import/no-default-export: 0 */
 import { storybookTest } from '@storybook/experimental-addon-test/vitest-plugin';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -10,11 +11,11 @@ const dirname =
 
 // More info at: https://storybook.js.org/docs/writing-tests/test-addon
 export default defineWorkspace([
-  'vite.config.ts',
+  'vite.dailyUIMain.ts',
   {
-    extends: 'vite.config.ts',
+    extends: 'vite.dailyUIMain.ts',
     plugins: [
-      // The plugin will run tests for the stories defined in your Storybook config
+      // The plugin will run tests for the stories defined in your Storybook dailyUIMain
       // See options at: https://storybook.js.org/docs/writing-tests/test-addon#storybooktest
       storybookTest({ configDir: path.join(dirname, '.storybook') }),
     ],

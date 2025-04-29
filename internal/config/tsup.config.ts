@@ -8,6 +8,7 @@ export default defineConfig((options) => ({
   entry: ['./src/index.ts', './src/setup.web.ts'],
   target: ['esnext'],
   format: ['esm'],
+  outDir: 'dist',
   dts: true,
   clean: true,
   splitting: true,

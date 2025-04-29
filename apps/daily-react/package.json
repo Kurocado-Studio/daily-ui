@@ -15,8 +15,11 @@
   },
   "dependencies": {
     "@kurocado-studio/ui": "1.4.0-develop.1",
+    "@kurocado-studio/daily-ui-domain": "workspace:*",
+    "clsx": "^2.1.1",
     "isbot": "^4",
     "lucide-react": "^0.292.0",
+    "motion": "^12.9.2",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
