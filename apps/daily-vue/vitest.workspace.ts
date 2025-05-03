@@ -11,11 +11,11 @@ const dirname =
 
 // More info at: https://storybook.js.org/docs/writing-tests/test-addon
 export default defineWorkspace([
-  'vite.dailyUIMain.ts',
+  'vite.config.ts',
   {
-    extends: 'vite.dailyUIMain.ts',
+    extends: 'vite.config.ts',
     plugins: [
-      // The plugin will run tests for the stories defined in your Storybook dailyUIMain
+      // The plugin will run tests for the stories defined in your Storybook config
       // See options at: https://storybook.js.org/docs/writing-tests/test-addon#storybooktest
       storybookTest({ configDir: path.join(dirname, '.storybook') }),
     ],

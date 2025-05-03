@@ -21,6 +21,7 @@
   },
   "files": ["dist"],
   "scripts": {
+    "internal:build": "rm -rf dist && tsup --dts",
     "build": "rm -rf dist && tsup --dts",
     "dev": "rm -rf dist && tsup --watch --dts",
     "clean": "rm -rf .turbo node_modules dist",

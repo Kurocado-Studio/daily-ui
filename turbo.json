@@ -7,7 +7,7 @@
       "dependsOn": ["^build"]
     },
     "setup": {
-      "dependsOn": ["^setup"],
+      "dependsOn": ["^setup", "^build"],
       "cache": false
     },
     "prettier:fix": {
@@ -23,19 +23,19 @@
       "cache": false
     },
     "test": {
-      "dependsOn": ["^setup", "^build"],
+      "dependsOn": ["^setup"],
       "cache": false
     },
     "lint": {
-      "dependsOn": ["^setup", "^build"],
+      "dependsOn": ["^setup"],
       "cache": false
     },
     "lint:fix": {
-      "dependsOn": ["^setup", "^build"],
+      "dependsOn": ["^setup"],
       "cache": false
     },
     "dev": {
-      "dependsOn": ["^setup", "^build"],
+      "dependsOn": ["^setup"],
       "cache": false,
       "persistent": true
     },
