@@ -1,6 +1,5 @@
 /* eslint import/no-default-export: 0 */
 import designTokens from '@internal/config/tokens';
-import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
 import type { Preview } from '@storybook/vue3';
 import { get } from 'lodash-es';
