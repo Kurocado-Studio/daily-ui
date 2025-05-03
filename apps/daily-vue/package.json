@@ -17,7 +17,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@kurocado-studio/ui": "1.4.0-develop.1",
+    "@kurocado-studio/ui": "1.4.0-develop.5",
     "tailwindcss": "^3.4.0",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.5.13"
