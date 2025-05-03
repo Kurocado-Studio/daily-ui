@@ -1,4 +1,4 @@
-import { semanticReleaseInternalConfig } from 'packages/dailyUIMain';
+import { semanticReleaseInternalConfig } from '@internal/config';
 
 export default {
   ...semanticReleaseInternalConfig,

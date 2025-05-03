@@ -6,7 +6,7 @@
   "scripts": {
     "build": "storybook build",
     "clean": "rm -rf .turbo node_modules",
-    "dev": "storybook dev -p 6008",
+    "dev": "storybook dev -p 6006",
     "lint": "eslint ./stories/*.stories.tsx --max-warnings 0 --no-warn-ignored",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --check . --write",
@@ -14,13 +14,10 @@
     "setup": "pnpm install"
   },
   "dependencies": {
-    "@kurocado-studio/daily-ui-domain": "workspace:*",
     "@kurocado-studio/ui": "1.4.0-develop.1",
-    "clsx": "^2.1.1",
     "isbot": "^4",
-    "lodash-es": "^4.17.21",
     "lucide-react": "^0.292.0",
-    "motion": "^12.9.2",
+    "motion": "^12.9.4",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
