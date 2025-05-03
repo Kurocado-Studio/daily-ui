@@ -4,6 +4,7 @@ export const content = [
   './src/**/*.{ts,tsx}',
   './stories/**/*.{ts,tsx}',
   './node_modules/@kurocado-studio/ui/dist/**/*.js',
+  './node_modules/@kurocado-studio/daily-ui-domain/dist/**/*.js',
 ];
 
 export const theme = kurocadoStudioTheme;
