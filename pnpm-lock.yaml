@@ -154,8 +154,8 @@ importers:
         specifier: workspace:*
         version: link:../../internal/dailyUI
       '@kurocado-studio/ui':
-        specifier: 1.4.0-develop.6
-        version: 1.4.0-develop.6(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(typescript@5.8.3)
+        specifier: 1.4.0-develop.7
+        version: 1.4.0-develop.7(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1290,8 +1290,8 @@ packages:
       tailwindcss: ^3.4.0
       tailwindcss-animate: ^1.0.7
 
-  '@kurocado-studio/ui@1.4.0-develop.6':
-    resolution: {integrity: sha512-cxVKa/bw3YwYiobQ0tNC8UmEGiT5gHdshSH4/KAo5N0nj/I5b51PhneL0mYxj/xYB5FdFi5p3SuXaFF713Ui6Q==}
+  '@kurocado-studio/ui@1.4.0-develop.7':
+    resolution: {integrity: sha512-92fuIY77+XUvWK3+1as6cSCWb662z5sNRsuQ0lRSKMXbQ1kNlgoF+FsslQ+CulRn5poAauQg3TUXllaT5LTJow==}
     peerDependencies:
       framer-motion: ^12.6.2
       react: 19.1.0
@@ -9278,7 +9278,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  '@kurocado-studio/ui@1.4.0-develop.6(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(typescript@5.8.3)':
+  '@kurocado-studio/ui@1.4.0-develop.7(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))':
     dependencies:
       '@kurocado-studio/html-forms': 1.0.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@react-aria/button': 3.13.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -9293,11 +9293,10 @@ snapshots:
       tailwind-variants: 1.0.0(tailwindcss@3.4.17)
       tailwindcss: 3.4.17
       tailwindcss-animate: 1.0.7(tailwindcss@3.4.17)
-      vue: 3.5.13(typescript@5.8.3)
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
       - '@vue/composition-api'
-      - typescript
+      - vue
 
   '@mdx-js/mdx@2.3.0':
     dependencies:

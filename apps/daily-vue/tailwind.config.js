@@ -6,6 +6,6 @@ export const content = [
   './node_modules/@kurocado-studio/ui/**/*.js',
 ];
 
-export const presets = [kurocadoStudioTheme]
+export const presets = [kurocadoStudioTheme];
 export const darkMode = 'class';
 export const plugins = [require('tailwindcss-animate')];
