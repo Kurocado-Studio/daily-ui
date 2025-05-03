@@ -1,4 +1,8 @@
 /* eslint import/no-default-export: 0 */
+import autoprefixer from 'autoprefixer';
+import tailwindcss from 'tailwindcss';
+import { mergeConfig } from 'vite';
+
 const config = {
   stories: [
     '../stories/**/*.mdx',
@@ -28,7 +32,15 @@ const config = {
       },
     },
   },
-  viteFinal: async (config) => {
+  viteFinal: (config) => {
+    mergeConfig(config, {
+      css: {
+        postcss: {
+          plugins: [tailwindcss(), autoprefixer()],
+        },
+      },
+    });
+
     config.server = config.server || {};
     config.server.watch = {
       ...config.server.watch,
