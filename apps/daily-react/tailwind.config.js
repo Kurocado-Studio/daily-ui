@@ -5,4 +5,12 @@ export const content = [
   './stories/**/*.{ts,tsx}',
   './node_modules/@kurocado-studio/ui/dist/**/*.js',
 ];
+
+export const purge = [
+  './src/**/*.html',
+  './src/**/*.vue',
+  './src/**/*.jsx',
+  './node_modules/@kurocado-studio/ui/dist/**/*.js',
+];
+
 export const presets = [preset];
