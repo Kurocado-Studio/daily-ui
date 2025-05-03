@@ -36,8 +36,8 @@ importers:
         specifier: workspace:*
         version: link:../../internal/dailyUI
       '@kurocado-studio/ui':
-        specifier: 1.4.0-develop.7
-        version: 1.4.0-develop.7(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
+        specifier: 1.4.0-develop.8
+        version: 1.4.0-develop.8(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -154,8 +154,8 @@ importers:
         specifier: workspace:*
         version: link:../../internal/dailyUI
       '@kurocado-studio/ui':
-        specifier: 1.4.0-develop.7
-        version: 1.4.0-develop.7(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
+        specifier: 1.4.0-develop.8
+        version: 1.4.0-develop.8(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1281,8 +1281,8 @@ packages:
       - '@trivago/prettier-plugin-sort-imports'
       - prettier-plugin-tailwindcss
 
-  '@kurocado-studio/ui@1.4.0-develop.7':
-    resolution: {integrity: sha512-92fuIY77+XUvWK3+1as6cSCWb662z5sNRsuQ0lRSKMXbQ1kNlgoF+FsslQ+CulRn5poAauQg3TUXllaT5LTJow==}
+  '@kurocado-studio/ui@1.4.0-develop.8':
+    resolution: {integrity: sha512-6e5R3x+/UIPV2GVCXFzYjKS/6quWodCkMMrObaVBiYMfUAzwZzjxXtp2pvq3ZMzWT6Y36kE8tgTwtYtIw7DgWA==}
     peerDependencies:
       framer-motion: ^12.6.2
       react: 19.1.0
@@ -9248,7 +9248,7 @@ snapshots:
       vite-plugin-dts: 4.5.3(@types/node@22.15.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3)(jiti@2.4.2)(yaml@2.7.1))
       vite-tsconfig-paths: 5.1.4(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3)(jiti@2.4.2)(yaml@2.7.1))
 
-  '@kurocado-studio/ui@1.4.0-develop.7(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))':
+  '@kurocado-studio/ui@1.4.0-develop.8(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))':
     dependencies:
       '@kurocado-studio/html-forms': 1.0.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@react-aria/button': 3.13.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
