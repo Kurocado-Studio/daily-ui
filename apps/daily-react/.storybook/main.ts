@@ -41,6 +41,11 @@ const config = {
       usePolling: true,
       interval: 100,
     };
+    config.css = {
+      postcss: {
+        plugins: [require('tailwindcss'), require('autoprefixer')],
+      },
+    };
     return config;
   },
 };
