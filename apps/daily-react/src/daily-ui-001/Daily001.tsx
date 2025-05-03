@@ -1,7 +1,7 @@
 import { Card, Input } from '@kurocado-studio/ui/react';
 import React from 'react';
 
-export function ExpandableCards(): React.ReactNode {
+export function Daily001(): React.ReactNode {
   return (
     <div className='flex h-screen w-full overflow-hidden'>
       <Card className='flex items-center justify-center'>

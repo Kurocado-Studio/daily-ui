@@ -2,12 +2,10 @@ import { Card, type CardProps } from '@kurocado-studio/ui/react';
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 
-function Template(args: CardProps): React.ReactElement {
-  return <Card {...args} />;
-}
+import { Daily001 } from '../src/daily-ui-001/Daily001';
 
 const meta: Meta<CardProps> = {
-  component: Template,
+  component: Daily001,
   argTypes: {
     children: {
       description: 'Is the Input disabled?',
@@ -21,7 +19,6 @@ const meta: Meta<CardProps> = {
 };
 
 export const WithCardBody: StoryObj<CardProps> = {
-  render: Template,
   name: 'With Card Body',
   args: {
     children: (
@@ -34,7 +31,6 @@ export const WithCardBody: StoryObj<CardProps> = {
 };
 
 export const WithCardHeader: StoryObj<CardProps> = {
-  render: Template,
   name: 'With Card Header',
   args: {
     children: (
@@ -52,7 +48,6 @@ export const WithCardHeader: StoryObj<CardProps> = {
 };
 
 export const WithCardFooter: StoryObj<CardProps> = {
-  render: Template,
   name: 'With Card Footer',
   args: {
     children: (
