@@ -154,8 +154,8 @@ importers:
         specifier: workspace:*
         version: link:../../internal/dailyUI
       '@kurocado-studio/ui':
-        specifier: 1.4.0-develop.4
-        version: 1.4.0-develop.4(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(typescript@5.8.3)
+        specifier: 1.4.0-develop.1
+        version: 1.4.0-develop.1(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(typescript@5.8.3)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1280,6 +1280,15 @@ packages:
     bundledDependencies:
       - '@trivago/prettier-plugin-sort-imports'
       - prettier-plugin-tailwindcss
+
+  '@kurocado-studio/ui@1.4.0-develop.1':
+    resolution: {integrity: sha512-DjPmDK9txTwaH03ik4DC551EdLab+zuWUoxGYrDNruORBGGTzw/+WysKrCkG+dpMjHRujChCed8D/hQdQ08B4w==}
+    peerDependencies:
+      framer-motion: ^12.6.2
+      react: 19.1.0
+      react-dom: 19.1.0
+      tailwindcss: ^3.4.0
+      tailwindcss-animate: ^1.0.7
 
   '@kurocado-studio/ui@1.4.0-develop.4':
     resolution: {integrity: sha512-/vD4Q/Tc5w92mkoc/NSK6PrhlZt33fSzhakj4C9VrI+izztzpq3ANZg1eMea3wTYczECbKEWZtSir01aSPOi9g==}
@@ -9247,6 +9256,23 @@ snapshots:
       url-join: 5.0.0
       vite-plugin-dts: 4.5.3(@types/node@22.15.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3)(jiti@2.4.2)(yaml@2.7.1))
       vite-tsconfig-paths: 5.1.4(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3)(jiti@2.4.2)(yaml@2.7.1))
+
+  '@kurocado-studio/ui@1.4.0-develop.1(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(typescript@5.8.3)':
+    dependencies:
+      '@kurocado-studio/html-forms': 1.0.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/button': 3.13.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/textfield': 3.17.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      framer-motion: 12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      lodash-es: 4.17.21
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      tailwind-merge: 3.2.0
+      tailwind-variants: 1.0.0(tailwindcss@3.4.17)
+      tailwindcss: 3.4.17
+      tailwindcss-animate: 1.0.7(tailwindcss@3.4.17)
+      vue: 3.5.13(typescript@5.8.3)
+    transitivePeerDependencies:
+      - typescript
 
   '@kurocado-studio/ui@1.4.0-develop.4(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(typescript@5.8.3)':
     dependencies:

@@ -1,5 +1,5 @@
 import { type Side, expandContainers } from '@kurocado-studio/daily-ui-domain';
-import { Card, Input } from '@kurocado-studio/ui/react';
+import { Card } from '@kurocado-studio/ui/react';
 import { useAnimationControls } from 'motion/react';
 import React from 'react';
 
@@ -27,7 +27,7 @@ export function ExpandableCards(): React.ReactNode {
         className='flex items-center justify-center'
       >
         <Card.Body>
-          <Input />
+          <p>Card.Body</p>
         </Card.Body>
       </Card>
       <Card

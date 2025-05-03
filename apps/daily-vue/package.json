@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@kurocado-studio/daily-ui-domain": "workspace:*",
-    "@kurocado-studio/ui": "1.4.0-develop.4",
+    "@kurocado-studio/ui": "1.4.0-develop.1",
     "clsx": "^2.1.1",
     "lodash-es": "^4.17.21",
     "motion-v": "^1.0.0",
