@@ -16,6 +16,12 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["./.storybook/**/*", "vite.config.ts", "src", "./stories/**/*"],
+  "include": [
+    "src",
+    "stories",
+    ".storybook/vitest.setup.ts",
+    "vitest.workspace.ts",
+    "src/**/*.vue"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
