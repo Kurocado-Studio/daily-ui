@@ -6,7 +6,7 @@ export function Daily001(): React.ReactNode {
     <div className='flex h-screen w-full overflow-hidden'>
       <Card className='flex items-center justify-center'>
         <Card.Body>
-          <p>Card.Body</p>
+          <p>Card Body</p>
         </Card.Body>
       </Card>
       <Card className='flex items-center justify-center'>

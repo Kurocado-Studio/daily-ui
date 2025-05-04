@@ -20,7 +20,6 @@
     "src",
     "stories",
     ".storybook/vitest.setup.ts",
-    ".storybook/main.ts",
     "vitest.workspace.ts",
     "src/**/*.vue"
   ],
