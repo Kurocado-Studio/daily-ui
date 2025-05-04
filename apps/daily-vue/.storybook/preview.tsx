@@ -1,4 +1,3 @@
-/* eslint import/no-default-export: 0 */
 import designTokens from '@internal/config/tokens';
 import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
@@ -7,9 +6,8 @@ import { get } from 'lodash-es';
 
 import '../tailwind.css';
 
-const DARK_THEME = 'Dark setup';
-
 const LIGHT_THEME = 'Light setup';
+const DARK_THEME = 'Dark setup';
 
 const preview = {
   globalTypes: {
@@ -45,7 +43,7 @@ export const parameters = {
   },
   controls: {
     matchers: {
-      color: /(?<temp1>background|color)$/i,
+      color: /(background|color)$/i,
       date: /Date$/,
     },
   },
