@@ -1,10 +1,5 @@
 /* eslint import/no-default-export: 0 */
 import type { StorybookConfig } from '@storybook/vue3-vite';
-import { dirname, join } from 'node:path';
-
-function getAbsolutePath(value: string): string {
-  return dirname(require.resolve(join(value, 'package.json')));
-}
 
 const config: StorybookConfig = {
   stories: [
@@ -12,10 +7,13 @@ const config: StorybookConfig = {
     '../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)',
   ],
   addons: [
-    getAbsolutePath('@storybook/addon-essentials'),
-    getAbsolutePath('@storybook/addon-onboarding'),
-    getAbsolutePath('@chromatic-com/storybook'),
-    getAbsolutePath('@storybook/experimental-addon-test'),
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-onboarding',
+    '@storybook/addon-interactions',
+    '@chromatic-com/storybook',
+    '@storybook/addon-docs',
+    '@storybook/addon-themes',
   ],
   framework: {
     name: '@storybook/vue3-vite',
@@ -31,4 +29,5 @@ const config: StorybookConfig = {
     return config;
   },
 };
+
 export default config;

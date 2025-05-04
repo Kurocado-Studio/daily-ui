@@ -19,6 +19,7 @@
   "dependencies": {
     "@kurocado-studio/daily-ui-domain": "workspace:*",
     "@kurocado-studio/ui": "1.4.0-develop.8",
+    "@storybook/theming": "^8.6.11",
     "clsx": "^2.1.1",
     "lodash-es": "^4.17.21",
     "motion-v": "^1.0.0",
@@ -29,8 +30,13 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^3",
     "@internal/config": "workspace:*",
-    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-actions": "^8.6.11",
+    "@storybook/addon-docs": "^8.6.11",
+    "@storybook/addon-essentials": "^8.6.11",
+    "@storybook/addon-interactions": "^8.6.11",
+    "@storybook/addon-links": "^8.6.11",
     "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/addon-themes": "^8.6.11",
     "@storybook/blocks": "^8.6.12",
     "@storybook/experimental-addon-test": "^8.6.12",
     "@storybook/test": "^8.6.12",

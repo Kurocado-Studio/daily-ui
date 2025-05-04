@@ -1,43 +1,21 @@
-import { Card, CardBody, type CardProps } from '@kurocado-studio/ui/vue';
+/* eslint import/no-default-export: 0 */
 import { fn } from '@storybook/test';
 import type { Meta, StoryObj } from '@storybook/vue3';
 
+import Daily001 from '../src/daily-ui-001/Daily001.vue';
+
 const meta = {
-  title: 'Card',
-  component: Card,
+  title: 'Daily001',
+  component: Daily001,
   tags: ['autodocs'],
   argTypes: {},
   args: {
     onClick: fn(),
   },
-} satisfies Meta<CardProps>;
+} satisfies Meta;
 
-/* eslint import/no-default-export: 0 */
 export default meta;
 
-type Story = StoryObj<CardProps>;
+type Story = StoryObj;
 
-const template = `
-<Card>
-  <CardBody>
-    <p class="text-sm">Vue Card Body</p>
-  </CardBody>
-</Card>
-`;
-
-export const Default: Story = {
-  render: (args: CardProps) => ({
-    components: { Card, CardBody },
-    setup() {
-      return { args };
-    },
-    template,
-  }),
-  parameters: {
-    docs: {
-      source: {
-        code: `<template>${template}</template>`,
-      },
-    },
-  },
-};
+export const Default: Story = {};

@@ -147,6 +147,9 @@ importers:
       '@kurocado-studio/ui':
         specifier: 1.4.0-develop.8
         version: 1.4.0-develop.8(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
+      '@storybook/theming':
+        specifier: ^8.6.11
+        version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -172,11 +175,26 @@ importers:
       '@internal/config':
         specifier: workspace:*
         version: link:../../internal/config
-      '@storybook/addon-essentials':
-        specifier: ^8.6.12
+      '@storybook/addon-actions':
+        specifier: ^8.6.11
+        version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
+      '@storybook/addon-docs':
+        specifier: ^8.6.11
         version: 8.6.12(@types/react@19.1.2)(storybook@8.6.12(prettier@3.5.3))
+      '@storybook/addon-essentials':
+        specifier: ^8.6.11
+        version: 8.6.12(@types/react@19.1.2)(storybook@8.6.12(prettier@3.5.3))
+      '@storybook/addon-interactions':
+        specifier: ^8.6.11
+        version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
+      '@storybook/addon-links':
+        specifier: ^8.6.11
+        version: 8.6.12(react@19.1.0)(storybook@8.6.12(prettier@3.5.3))
       '@storybook/addon-onboarding':
         specifier: ^8.6.12
+        version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
+      '@storybook/addon-themes':
+        specifier: ^8.6.11
         version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
       '@storybook/blocks':
         specifier: ^8.6.12
