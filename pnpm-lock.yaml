@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@kurocado-studio/styleguide':
         specifier: ^2.5.2
-        version: 2.5.2(sirdlbhmh6fuybmapznrzyhmru)
+        version: 2.5.2(yd3dlz3qznpbpbus6r4q36mlsq)
       commitlint:
         specifier: ^19.8.0
         version: 19.8.0(@types/node@22.15.3)(typescript@5.8.3)
@@ -144,6 +144,9 @@ importers:
       '@kurocado-studio/ui':
         specifier: 1.4.0-develop.8
         version: 1.4.0-develop.8(framer-motion@12.9.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss-animate@1.0.7(tailwindcss@3.4.17))(tailwindcss@3.4.17)(vue@3.5.13(typescript@5.8.3))
+      '@storybook/theming':
+        specifier: ^8.6.11
+        version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
       lodash-es:
         specifier: ^4.17.21
         version: 4.17.21
@@ -231,7 +234,7 @@ importers:
         version: 2.0.1(xbq7k6t5xezioyefz4ji7fasam)
       '@kurocado-studio/styleguide':
         specifier: ^2.5.2
-        version: 2.5.2(sirdlbhmh6fuybmapznrzyhmru)
+        version: 2.5.2(yd3dlz3qznpbpbus6r4q36mlsq)
       '@testing-library/jest-dom':
         specifier: ^6.6.3
         version: 6.6.3
@@ -264,7 +267,7 @@ importers:
         version: 2.0.1(xbq7k6t5xezioyefz4ji7fasam)
       '@kurocado-studio/styleguide':
         specifier: ^2.5.2
-        version: 2.5.2(sirdlbhmh6fuybmapznrzyhmru)
+        version: 2.5.2(yd3dlz3qznpbpbus6r4q36mlsq)
       '@testing-library/jest-dom':
         specifier: ^6.6.3
         version: 6.6.3
@@ -4280,8 +4283,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  eslint-plugin-prettier@5.2.6:
-    resolution: {integrity: sha512-mUcf7QG2Tjk7H055Jk0lGBjbgDnfrvqjhXh9t2xLMSCjZVcw9Rb1V6sVNXO0th3jgeO7zllWPTNRil3JW94TnQ==}
+  eslint-plugin-prettier@5.3.1:
+    resolution: {integrity: sha512-vad9VWgEm9xaVXRNmb4aeOt0PWDc61IAdzghkbYQ2wavgax148iKoX1rNJcgkBGCipzLzOnHYVgL7xudM9yccQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -9176,7 +9179,7 @@ snapshots:
       vitest: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(@vitest/browser@3.1.2)(jiti@2.4.2)(jsdom@26.1.0)(yaml@2.7.1)
       vitest-axe: 0.1.0(vitest@3.1.2)
 
-  '@kurocado-studio/styleguide@2.5.2(sirdlbhmh6fuybmapznrzyhmru)':
+  '@kurocado-studio/styleguide@2.5.2(yd3dlz3qznpbpbus6r4q36mlsq)':
     dependencies:
       '@babel/eslint-parser': 7.27.1(@babel/core@7.27.1)(eslint@9.24.0(jiti@2.4.2))
       '@commitlint/cli': 19.8.0(@types/node@22.15.3)(typescript@5.8.3)
@@ -9204,7 +9207,7 @@ snapshots:
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.31.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@4.3.4)(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-playwright: 2.2.0(eslint@9.24.0(jiti@2.4.2))
-      eslint-plugin-prettier: 5.2.6(eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(prettier@3.5.3)
+      eslint-plugin-prettier: 5.3.1(eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(prettier@3.5.3)
       eslint-plugin-react: 7.37.5(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-testing-library: 7.1.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
@@ -13233,7 +13236,7 @@ snapshots:
       eslint: 9.24.0(jiti@2.4.2)
       globals: 13.24.0
 
-  eslint-plugin-prettier@5.2.6(eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(prettier@3.5.3):
+  eslint-plugin-prettier@5.3.1(eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(prettier@3.5.3):
     dependencies:
       eslint: 9.24.0(jiti@2.4.2)
       prettier: 3.5.3

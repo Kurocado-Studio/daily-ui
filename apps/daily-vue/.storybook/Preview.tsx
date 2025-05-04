@@ -1,3 +1,4 @@
+/* eslint import/no-default-export: 0 */
 import designTokens from '@internal/config/tokens';
 import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
@@ -43,7 +44,7 @@ export const parameters = {
   },
   controls: {
     matchers: {
-      color: /(background|color)$/i,
+      color: /(?<temp1>background|color)$/i,
       date: /Date$/,
     },
   },

@@ -1,3 +1,4 @@
+/* eslint import/no-default-export: 0 */
 import type { StorybookConfig } from '@storybook/vue3-vite';
 
 const config: StorybookConfig = {
@@ -10,6 +11,7 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
+    '@storybook/addon-docs',
     '@storybook/addon-themes',
   ],
   framework: {
