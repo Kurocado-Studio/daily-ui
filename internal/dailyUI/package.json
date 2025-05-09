@@ -35,7 +35,7 @@
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.13.14",
     "copyfiles": "^2.4.1",
-    "framer-motion": "^12.9.2",
+    "framer-motion": "^12.10.4",
     "semantic-release": "^24.2.3",
     "semantic-release-monorepo": "^8.0.2",
     "tsup": "^8.0.2",
