@@ -4,18 +4,37 @@ import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
 
 import '../tailwind.css';
+import {themes} from "@storybook/theming";
 
 const LIGHT_THEME = 'Light setup';
+const DARK_THEME = 'Dark setup';
 
 const preview = {
-  parameters: {
-    controls: {
-      matchers: {
-        color: /(?<temp1>background|color)$/i,
-        date: /Date$/i,
+  globalTypes: {
+    theme: {
+      description: 'Global setup for components',
+      toolbar: {
+        title: 'Theme',
+        icon: 'circlehollow',
+        items: [LIGHT_THEME, DARK_THEME],
+        dynamicTitle: true,
       },
     },
   },
+  initialGlobals: {
+    theme: 'light',
+  },
+  parameters: {
+    controls: {
+      matchers: {},
+    },
+    docs: {
+      theme: window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? themes.dark
+          : themes.light,
+    },
+  },
+  tags: ['autodocs'],
 };
 
 export const decorators = [
