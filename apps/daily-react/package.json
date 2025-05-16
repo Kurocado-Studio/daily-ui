@@ -27,7 +27,7 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
     "@internal/config": "workspace:*",
-    "@storybook/addon-actions": "^8.6.11",
+    "@storybook/addon-actions": "^8.6.13",
     "@storybook/addon-docs": "^8.6.11",
     "@storybook/addon-essentials": "^8.6.11",
     "@storybook/addon-interactions": "^8.6.11",
