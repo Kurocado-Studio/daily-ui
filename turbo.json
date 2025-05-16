@@ -34,6 +34,22 @@
       "dependsOn": ["^setup"],
       "cache": false
     },
+    "ui:local:lib": {
+      "dependsOn": ["^setup"],
+      "cache": false
+    },
+    "ui:local:sync": {
+      "dependsOn": ["^setup"],
+      "cache": false
+    },
+    "ui:canary:lib": {
+      "dependsOn": ["^setup"],
+      "cache": false
+    },
+    "ui:published:lib": {
+      "dependsOn": ["^setup"],
+      "cache": false
+    },
     "dev": {
       "dependsOn": ["^setup"],
       "cache": false,
