@@ -1,10 +1,10 @@
 /* eslint import/no-default-export: 0 */
-import designTokens from '@internal/config/tokens';
+import designTokens from '@kurocado-studio/ui/tokens.json';
 import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
+import { themes } from '@storybook/theming';
 
 import '../tailwind.css';
-import {themes} from "@storybook/theming";
 
 const LIGHT_THEME = 'Light setup';
 const DARK_THEME = 'Dark setup';
@@ -30,8 +30,8 @@ const preview = {
     },
     docs: {
       theme: window.matchMedia('(prefers-color-scheme: dark)').matches
-          ? themes.dark
-          : themes.light,
+        ? themes.dark
+        : themes.light,
     },
   },
   tags: ['autodocs'],

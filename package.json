@@ -21,7 +21,7 @@
     "typecheck": "turbo run typecheck",
     "ui:local:lib": "turbo run ui:local:lib && pnpm dev",
     "ui:canary:lib": "turbo run ui:canary:lib && pnpm dev",
-    "ui:published:lib": "turbo run ui:published:lib && pnpm dev",
+    "ui:published:lib": "turbo run ui:published:lib",
     "ui:local:sync": "turbo run ui:local:sync",
     "test": "turbo run test"
   },
