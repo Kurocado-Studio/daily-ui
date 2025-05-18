@@ -18,7 +18,7 @@
     "setup": "pnpm install"
   },
   "dependencies": {
-    "@kurocado-studio/ui": "1.4.0-develop.10",
+    "@kurocado-studio/ui": "1.6.0-develop.4",
     "isbot": "^5",
     "lucide-react": "^0.292.0",
     "motion": "^12.11.3",
