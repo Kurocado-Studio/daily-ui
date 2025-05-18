@@ -1,21 +1,40 @@
-import designTokens from '@internal/config/tokens';
+/* eslint import/no-default-export: 0 */
+import designTokens from '@kurocado-studio/ui/tokens.json';
 import '@kurocado-studio/ui/typography.css';
 import { ThemeProvider } from '@kurocado-studio/ui/vue';
-import type { Preview } from '@storybook/vue3';
+import { themes } from '@storybook/theming';
 
 import '../tailwind.css';
 
 const LIGHT_THEME = 'Light setup';
+const DARK_THEME = 'Dark setup';
 
-const preview: Preview = {
-  parameters: {
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/i,
+const preview = {
+  globalTypes: {
+    theme: {
+      description: 'Global setup for components',
+      toolbar: {
+        title: 'Theme',
+        icon: 'circlehollow',
+        items: [LIGHT_THEME, DARK_THEME],
+        dynamicTitle: true,
       },
     },
   },
+  initialGlobals: {
+    theme: 'light',
+  },
+  parameters: {
+    controls: {
+      matchers: {},
+    },
+    docs: {
+      theme: window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? themes.dark
+        : themes.light,
+    },
+  },
+  tags: ['autodocs'],
 };
 
 export const decorators = [

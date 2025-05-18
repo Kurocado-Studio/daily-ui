@@ -19,11 +19,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "skipLibCheck": true,
-    "paths": {
-      "@kurocado-studio/ui": ["node_modules/@kurocado-studio/ui"]
-    }
+    "skipLibCheck": true
   },
-  "include": ["./.storybook/**/*", "vite.config.ts", "./stories/**/*"],
+  "include": ["./.storybook/**/*", "vite.config.ts", "src", "./stories/**/*"],
   "exclude": ["dist", "build", "node_modules"]
 }

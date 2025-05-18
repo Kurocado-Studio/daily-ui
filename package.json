@@ -19,16 +19,20 @@
     "semantic-release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
     "setup": "pnpm i && turbo run setup",
     "typecheck": "turbo run typecheck",
+    "ui:local:lib": "turbo run ui:local:lib && pnpm dev",
+    "ui:canary:lib": "turbo run ui:canary:lib && pnpm dev",
+    "ui:published:lib": "turbo run ui:published:lib",
+    "ui:local:sync": "turbo run ui:local:sync",
     "test": "turbo run test"
   },
   "devDependencies": {
     "@kurocado-studio/styleguide": "^2.5.2",
-    "commitlint": "^19.8.0",
-    "eslint": "9.24",
+    "commitlint": "^19.8.1",
+    "eslint": "9.26",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.0",
+    "lint-staged": "^16.0.0",
     "prettier": "3.5.3",
-    "turbo": "^2.5.0"
+    "turbo": "^2.5.3"
   },
   "lint-staged": {
     "*.{ts,tsx,json,yml,css,md}": [
