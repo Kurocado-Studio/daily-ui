@@ -1,20 +1,24 @@
 {
-  "name": "daily-react",
+  "name": "@kurocado-studio/daily-react",
   "version": "0.0.0-semantically-released",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "storybook build",
     "clean": "rm -rf .turbo node_modules",
-    "dev": "storybook dev -p 6006",
+    "dev": "storybook dev -p 6006 --no-open",
     "lint": "eslint ./stories/*.stories.tsx --max-warnings 0 --no-warn-ignored",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --check . --write",
     "preview-storybook": "serve storybook-static",
+    "ui:local:lib": "pnpm add @kurocado-studio/ui@file:../../../design-system/packages/ui",
+    "ui:canary:lib": "pnpm add @kurocado-studio/ui@canary",
+    "ui:published:lib": "pnpm add @kurocado-studio/ui@latest",
+    "ui:local:sync": "cd ../../../design-system/packages/ui && pnpm run build && cd - && pnpm install @kurocado-studio/ui@file:../../../design-system/packages/ui",
     "setup": "pnpm install"
   },
   "dependencies": {
-    "@kurocado-studio/ui": "1.4.0-develop.10",
+    "@kurocado-studio/ui": "1.6.0-develop.4",
     "isbot": "^5",
     "lucide-react": "^0.292.0",
     "motion": "^12.11.3",

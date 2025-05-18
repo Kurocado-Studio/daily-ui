@@ -19,6 +19,10 @@
     "semantic-release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
     "setup": "pnpm i && turbo run setup",
     "typecheck": "turbo run typecheck",
+    "ui:local:lib": "turbo run ui:local:lib && pnpm dev",
+    "ui:canary:lib": "turbo run ui:canary:lib && pnpm dev",
+    "ui:published:lib": "turbo run ui:published:lib",
+    "ui:local:sync": "turbo run ui:local:sync",
     "test": "turbo run test"
   },
   "devDependencies": {
