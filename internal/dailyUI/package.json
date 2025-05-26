@@ -36,7 +36,7 @@
     "@types/node": "^22.15.21",
     "copyfiles": "^2.4.1",
     "framer-motion": "^12.12.1",
-    "semantic-release": "^24.2.4",
+    "semantic-release": "^24.2.5",
     "semantic-release-monorepo": "^8.0.2",
     "tsup": "^8.5.0",
     "unplugin-vue": "^6.2.0"
