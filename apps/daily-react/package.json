@@ -29,7 +29,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.6",
+    "@chromatic-com/storybook": "^4.0.0",
     "@internal/config": "workspace:*",
     "@storybook/addon-actions": "^8.6.14",
     "@storybook/addon-docs": "^8.6.14",
