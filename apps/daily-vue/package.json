@@ -13,15 +13,15 @@
     "prettier:fix": "prettier --check . --write",
     "preview-storybook": "serve storybook-static",
     "setup": "pnpm install",
-    "ui:local:lib": "pnpm add @kurocado-studio/ui@file:../../../design-system/packages/ui",
-    "ui:canary:lib": "pnpm add @kurocado-studio/ui@canary",
-    "ui:published:lib": "pnpm add @kurocado-studio/ui@latest",
-    "ui:local:sync": "cd ../../../design-system/packages/ui && pnpm run build && cd - && pnpm install @kurocado-studio/ui@file:../../../design-system/packages/ui",
+    "ui:local:lib": "pnpm add @kurocado-studio/ui-research-and-development@file:../../../design-system/packages/ui",
+    "ui:canary:lib": "pnpm add @kurocado-studio/ui-research-and-development@canary",
+    "ui:published:lib": "pnpm add @kurocado-studio/ui-research-and-development@latest",
+    "ui:local:sync": "cd ../../../design-system/packages/ui && pnpm run build && cd - && pnpm install @kurocado-studio/ui-research-and-development@file:../../../design-system/packages/ui",
     "storybook": "storybook dev -p 6008",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@kurocado-studio/ui": "1.6.0-develop.4",
+    "@kurocado-studio/ui-research-and-development": "1.0.0-develop.7",
     "tailwindcss": "^3.4.0",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.5.15"

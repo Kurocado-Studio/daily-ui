@@ -1,8 +1,8 @@
-import preset from '@kurocado-studio/ui/tailwind.preset';
+import preset from '@kurocado-studio/ui-research-and-development/tailwind.preset';
 
 export const content = [
   './src/**/*.{ts,tsx,vue}',
   './stories/**/*.{ts,tsx}',
-  './node_modules/@kurocado-studio/ui/dist/**/*.js',
+  './node_modules/@kurocado-studio/ui-research-and-development/dist/**/*.js',
 ];
 export const presets = [preset];

@@ -1,6 +1,6 @@
-import { ThemeProvider } from '@kurocado-studio/ui/react';
-import designTokens from '@kurocado-studio/ui/tokens.json';
-import '@kurocado-studio/ui/typography.css';
+import { ThemeProvider } from '@kurocado-studio/ui-research-and-development/react';
+import designTokens from '@kurocado-studio/ui-research-and-development/tokens.json';
+import '@kurocado-studio/ui-research-and-development/typography.css';
 import { themes } from '@storybook/theming';
 import React, { memo, useEffect } from 'react';
 

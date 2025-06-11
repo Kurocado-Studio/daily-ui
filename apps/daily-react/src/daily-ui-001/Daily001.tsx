@@ -7,7 +7,7 @@ import {
   Input,
   Label,
   Typography,
-} from '@kurocado-studio/ui/react';
+} from '@kurocado-studio/ui-research-and-development/react';
 import React from 'react';
 
 export function Daily001(): React.ReactNode {
